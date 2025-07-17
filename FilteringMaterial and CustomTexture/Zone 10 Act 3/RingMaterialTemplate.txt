@@ -1,0 +1,3056 @@
+0 Material Base
+ 1 string m_Name = "$NAME_MATERIAL$"
+ 0 PPtr<Shader> m_Shader
+  0 int m_FileID = $SHADER_PATH_ID$
+  0 SInt64 m_PathID = 1093996364716481080
+ 0 vector m_ValidKeywords
+  1 Array Array (0 items)
+   0 int size = 0
+ 0 vector m_InvalidKeywords
+  1 Array Array (0 items)
+   0 int size = 0
+ 0 unsigned int m_LightmapFlags = 4
+ 0 bool m_EnableInstancingVariants = false
+ 1 bool m_DoubleSidedGI = false
+ 0 int m_CustomRenderQueue = 2450
+ 0 map stringTagMap
+  0 Array Array (0 items)
+   0 int size = 0
+ 0 vector disabledShaderPasses
+  1 Array Array (0 items)
+   0 int size = 0
+ 0 UnityPropertySheet m_SavedProperties
+  0 map m_TexEnvs
+   0 Array Array (59 items)
+    0 int size = 59
+    [0]
+     0 pair data
+      1 string first = "_AlphaMask"
+      0 UnityTexEnv second
+       0 PPtr<Texture> m_Texture
+        0 int m_FileID = 0
+        0 SInt64 m_PathID = 0
+       0 Vector2f m_Scale
+        0 float x = 1
+        0 float y = 1
+       0 Vector2f m_Offset
+        0 float x = 0
+        0 float y = 0
+    [1]
+     0 pair data
+      1 string first = "_AnisotropyScaleMask"
+      0 UnityTexEnv second
+       0 PPtr<Texture> m_Texture
+        0 int m_FileID = 0
+        0 SInt64 m_PathID = 0
+       0 Vector2f m_Scale
+        0 float x = 1
+        0 float y = 1
+       0 Vector2f m_Offset
+        0 float x = 0
+        0 float y = 0
+    [2]
+     0 pair data
+      1 string first = "_AnisotropyShiftNoiseMask"
+      0 UnityTexEnv second
+       0 PPtr<Texture> m_Texture
+        0 int m_FileID = 0
+        0 SInt64 m_PathID = 0
+       0 Vector2f m_Scale
+        0 float x = 1
+        0 float y = 1
+       0 Vector2f m_Offset
+        0 float x = 0
+        0 float y = 0
+    [3]
+     0 pair data
+      1 string first = "_AnisotropyTangentMap"
+      0 UnityTexEnv second
+       0 PPtr<Texture> m_Texture
+        0 int m_FileID = 0
+        0 SInt64 m_PathID = 0
+       0 Vector2f m_Scale
+        0 float x = 1
+        0 float y = 1
+       0 Vector2f m_Offset
+        0 float x = 0
+        0 float y = 0
+    [4]
+     0 pair data
+      1 string first = "_AudioLinkLocalMap"
+      0 UnityTexEnv second
+       0 PPtr<Texture> m_Texture
+        0 int m_FileID = 0
+        0 SInt64 m_PathID = 0
+       0 Vector2f m_Scale
+        0 float x = 1
+        0 float y = 1
+       0 Vector2f m_Offset
+        0 float x = 0
+        0 float y = 0
+    [5]
+     0 pair data
+      1 string first = "_AudioLinkMask"
+      0 UnityTexEnv second
+       0 PPtr<Texture> m_Texture
+        0 int m_FileID = 0
+        0 SInt64 m_PathID = 0
+       0 Vector2f m_Scale
+        0 float x = 1
+        0 float y = 1
+       0 Vector2f m_Offset
+        0 float x = 0
+        0 float y = 0
+    [6]
+     0 pair data
+      1 string first = "_BacklightColorTex"
+      0 UnityTexEnv second
+       0 PPtr<Texture> m_Texture
+        0 int m_FileID = 0
+        0 SInt64 m_PathID = 0
+       0 Vector2f m_Scale
+        0 float x = 1
+        0 float y = 1
+       0 Vector2f m_Offset
+        0 float x = 0
+        0 float y = 0
+    [7]
+     0 pair data
+      1 string first = "_BaseColorMap"
+      0 UnityTexEnv second
+       0 PPtr<Texture> m_Texture
+        0 int m_FileID = $SHADER_PATH_ID$
+        0 SInt64 m_PathID = 9219564971200827485
+       0 Vector2f m_Scale
+        0 float x = 1
+        0 float y = 1
+       0 Vector2f m_Offset
+        0 float x = 0
+        0 float y = 0
+    [8]
+     0 pair data
+      1 string first = "_BaseMap"
+      0 UnityTexEnv second
+       0 PPtr<Texture> m_Texture
+        0 int m_FileID = $SHADER_PATH_ID$
+        0 SInt64 m_PathID = 9219564971200827485
+       0 Vector2f m_Scale
+        0 float x = 1
+        0 float y = 1
+       0 Vector2f m_Offset
+        0 float x = 0
+        0 float y = 0
+    [9]
+     0 pair data
+      1 string first = "_BlendMask"
+      0 UnityTexEnv second
+       0 PPtr<Texture> m_Texture
+        0 int m_FileID = 0
+        0 SInt64 m_PathID = 0
+       0 Vector2f m_Scale
+        0 float x = 1
+        0 float y = 1
+       0 Vector2f m_Offset
+        0 float x = 0
+        0 float y = 0
+    [10]
+     0 pair data
+      1 string first = "_Bump2ndMap"
+      0 UnityTexEnv second
+       0 PPtr<Texture> m_Texture
+        0 int m_FileID = 0
+        0 SInt64 m_PathID = 0
+       0 Vector2f m_Scale
+        0 float x = 1
+        0 float y = 1
+       0 Vector2f m_Offset
+        0 float x = 0
+        0 float y = 0
+    [11]
+     0 pair data
+      1 string first = "_Bump2ndScaleMask"
+      0 UnityTexEnv second
+       0 PPtr<Texture> m_Texture
+        0 int m_FileID = 0
+        0 SInt64 m_PathID = 0
+       0 Vector2f m_Scale
+        0 float x = 1
+        0 float y = 1
+       0 Vector2f m_Offset
+        0 float x = 0
+        0 float y = 0
+    [12]
+     0 pair data
+      1 string first = "_BumpMap"
+      0 UnityTexEnv second
+       0 PPtr<Texture> m_Texture
+        0 int m_FileID = 0
+        0 SInt64 m_PathID = 0
+       0 Vector2f m_Scale
+        0 float x = 1
+        0 float y = 1
+       0 Vector2f m_Offset
+        0 float x = 0
+        0 float y = 0
+    [13]
+     0 pair data
+      1 string first = "_DissolveMask"
+      0 UnityTexEnv second
+       0 PPtr<Texture> m_Texture
+        0 int m_FileID = 0
+        0 SInt64 m_PathID = 0
+       0 Vector2f m_Scale
+        0 float x = 1
+        0 float y = 1
+       0 Vector2f m_Offset
+        0 float x = 0
+        0 float y = 0
+    [14]
+     0 pair data
+      1 string first = "_DissolveNoiseMask"
+      0 UnityTexEnv second
+       0 PPtr<Texture> m_Texture
+        0 int m_FileID = 0
+        0 SInt64 m_PathID = 0
+       0 Vector2f m_Scale
+        0 float x = 1
+        0 float y = 1
+       0 Vector2f m_Offset
+        0 float x = 0
+        0 float y = 0
+    [15]
+     0 pair data
+      1 string first = "_Emission2ndBlendMask"
+      0 UnityTexEnv second
+       0 PPtr<Texture> m_Texture
+        0 int m_FileID = 0
+        0 SInt64 m_PathID = 0
+       0 Vector2f m_Scale
+        0 float x = 1
+        0 float y = 1
+       0 Vector2f m_Offset
+        0 float x = 0
+        0 float y = 0
+    [16]
+     0 pair data
+      1 string first = "_Emission2ndGradTex"
+      0 UnityTexEnv second
+       0 PPtr<Texture> m_Texture
+        0 int m_FileID = 0
+        0 SInt64 m_PathID = 0
+       0 Vector2f m_Scale
+        0 float x = 1
+        0 float y = 1
+       0 Vector2f m_Offset
+        0 float x = 0
+        0 float y = 0
+    [17]
+     0 pair data
+      1 string first = "_Emission2ndMap"
+      0 UnityTexEnv second
+       0 PPtr<Texture> m_Texture
+        0 int m_FileID = 0
+        0 SInt64 m_PathID = 0
+       0 Vector2f m_Scale
+        0 float x = 1
+        0 float y = 1
+       0 Vector2f m_Offset
+        0 float x = 0
+        0 float y = 0
+    [18]
+     0 pair data
+      1 string first = "_EmissionBlendMask"
+      0 UnityTexEnv second
+       0 PPtr<Texture> m_Texture
+        0 int m_FileID = 0
+        0 SInt64 m_PathID = 0
+       0 Vector2f m_Scale
+        0 float x = 1
+        0 float y = 1
+       0 Vector2f m_Offset
+        0 float x = 0
+        0 float y = 0
+    [19]
+     0 pair data
+      1 string first = "_EmissionGradTex"
+      0 UnityTexEnv second
+       0 PPtr<Texture> m_Texture
+        0 int m_FileID = 0
+        0 SInt64 m_PathID = 0
+       0 Vector2f m_Scale
+        0 float x = 1
+        0 float y = 1
+       0 Vector2f m_Offset
+        0 float x = 0
+        0 float y = 0
+    [20]
+     0 pair data
+      1 string first = "_EmissionMap"
+      0 UnityTexEnv second
+       0 PPtr<Texture> m_Texture
+        0 int m_FileID = 0
+        0 SInt64 m_PathID = 0
+       0 Vector2f m_Scale
+        0 float x = 1
+        0 float y = 1
+       0 Vector2f m_Offset
+        0 float x = 0
+        0 float y = 0
+    [21]
+     0 pair data
+      1 string first = "_GlitterColorTex"
+      0 UnityTexEnv second
+       0 PPtr<Texture> m_Texture
+        0 int m_FileID = 0
+        0 SInt64 m_PathID = 0
+       0 Vector2f m_Scale
+        0 float x = 1
+        0 float y = 1
+       0 Vector2f m_Offset
+        0 float x = 0
+        0 float y = 0
+    [22]
+     0 pair data
+      1 string first = "_GlitterShapeTex"
+      0 UnityTexEnv second
+       0 PPtr<Texture> m_Texture
+        0 int m_FileID = 0
+        0 SInt64 m_PathID = 0
+       0 Vector2f m_Scale
+        0 float x = 1
+        0 float y = 1
+       0 Vector2f m_Offset
+        0 float x = 0
+        0 float y = 0
+    [23]
+     0 pair data
+      1 string first = "_Main2ndBlendMask"
+      0 UnityTexEnv second
+       0 PPtr<Texture> m_Texture
+        0 int m_FileID = 0
+        0 SInt64 m_PathID = 0
+       0 Vector2f m_Scale
+        0 float x = 1
+        0 float y = 1
+       0 Vector2f m_Offset
+        0 float x = 0
+        0 float y = 0
+    [24]
+     0 pair data
+      1 string first = "_Main2ndDissolveMask"
+      0 UnityTexEnv second
+       0 PPtr<Texture> m_Texture
+        0 int m_FileID = 0
+        0 SInt64 m_PathID = 0
+       0 Vector2f m_Scale
+        0 float x = 1
+        0 float y = 1
+       0 Vector2f m_Offset
+        0 float x = 0
+        0 float y = 0
+    [25]
+     0 pair data
+      1 string first = "_Main2ndDissolveNoiseMask"
+      0 UnityTexEnv second
+       0 PPtr<Texture> m_Texture
+        0 int m_FileID = 0
+        0 SInt64 m_PathID = 0
+       0 Vector2f m_Scale
+        0 float x = 1
+        0 float y = 1
+       0 Vector2f m_Offset
+        0 float x = 0
+        0 float y = 0
+    [26]
+     0 pair data
+      1 string first = "_Main2ndTex"
+      0 UnityTexEnv second
+       0 PPtr<Texture> m_Texture
+        0 int m_FileID = 0
+        0 SInt64 m_PathID = 0
+       0 Vector2f m_Scale
+        0 float x = 1
+        0 float y = 1
+       0 Vector2f m_Offset
+        0 float x = 0
+        0 float y = 0
+    [27]
+     0 pair data
+      1 string first = "_Main3rdBlendMask"
+      0 UnityTexEnv second
+       0 PPtr<Texture> m_Texture
+        0 int m_FileID = 0
+        0 SInt64 m_PathID = 0
+       0 Vector2f m_Scale
+        0 float x = 1
+        0 float y = 1
+       0 Vector2f m_Offset
+        0 float x = 0
+        0 float y = 0
+    [28]
+     0 pair data
+      1 string first = "_Main3rdDissolveMask"
+      0 UnityTexEnv second
+       0 PPtr<Texture> m_Texture
+        0 int m_FileID = 0
+        0 SInt64 m_PathID = 0
+       0 Vector2f m_Scale
+        0 float x = 1
+        0 float y = 1
+       0 Vector2f m_Offset
+        0 float x = 0
+        0 float y = 0
+    [29]
+     0 pair data
+      1 string first = "_Main3rdDissolveNoiseMask"
+      0 UnityTexEnv second
+       0 PPtr<Texture> m_Texture
+        0 int m_FileID = 0
+        0 SInt64 m_PathID = 0
+       0 Vector2f m_Scale
+        0 float x = 1
+        0 float y = 1
+       0 Vector2f m_Offset
+        0 float x = 0
+        0 float y = 0
+    [30]
+     0 pair data
+      1 string first = "_Main3rdTex"
+      0 UnityTexEnv second
+       0 PPtr<Texture> m_Texture
+        0 int m_FileID = 0
+        0 SInt64 m_PathID = 0
+       0 Vector2f m_Scale
+        0 float x = 1
+        0 float y = 1
+       0 Vector2f m_Offset
+        0 float x = 0
+        0 float y = 0
+    [31]
+     0 pair data
+      1 string first = "_MainColorAdjustMask"
+      0 UnityTexEnv second
+       0 PPtr<Texture> m_Texture
+        0 int m_FileID = 0
+        0 SInt64 m_PathID = 0
+       0 Vector2f m_Scale
+        0 float x = 1
+        0 float y = 1
+       0 Vector2f m_Offset
+        0 float x = 0
+        0 float y = 0
+    [32]
+     0 pair data
+      1 string first = "_MainGradationTex"
+      0 UnityTexEnv second
+       0 PPtr<Texture> m_Texture
+        0 int m_FileID = 0
+        0 SInt64 m_PathID = 0
+       0 Vector2f m_Scale
+        0 float x = 1
+        0 float y = 1
+       0 Vector2f m_Offset
+        0 float x = 0
+        0 float y = 0
+    [33]
+     0 pair data
+      1 string first = "_MainTex"
+      0 UnityTexEnv second
+       0 PPtr<Texture> m_Texture
+        0 int m_FileID = $SHADER_PATH_ID$
+        0 SInt64 m_PathID = 9219564971200827485
+       0 Vector2f m_Scale
+        0 float x = 1
+        0 float y = 1
+       0 Vector2f m_Offset
+        0 float x = 0
+        0 float y = 0
+    [34]
+     0 pair data
+      1 string first = "_MatCap2ndBlendMask"
+      0 UnityTexEnv second
+       0 PPtr<Texture> m_Texture
+        0 int m_FileID = 0
+        0 SInt64 m_PathID = 0
+       0 Vector2f m_Scale
+        0 float x = 1
+        0 float y = 1
+       0 Vector2f m_Offset
+        0 float x = 0
+        0 float y = 0
+    [35]
+     0 pair data
+      1 string first = "_MatCap2ndBumpMap"
+      0 UnityTexEnv second
+       0 PPtr<Texture> m_Texture
+        0 int m_FileID = 0
+        0 SInt64 m_PathID = 0
+       0 Vector2f m_Scale
+        0 float x = 1
+        0 float y = 1
+       0 Vector2f m_Offset
+        0 float x = 0
+        0 float y = 0
+    [36]
+     0 pair data
+      1 string first = "_MatCap2ndTex"
+      0 UnityTexEnv second
+       0 PPtr<Texture> m_Texture
+        0 int m_FileID = 0
+        0 SInt64 m_PathID = 0
+       0 Vector2f m_Scale
+        0 float x = 1
+        0 float y = 1
+       0 Vector2f m_Offset
+        0 float x = 0
+        0 float y = 0
+    [37]
+     0 pair data
+      1 string first = "_MatCapBlendMask"
+      0 UnityTexEnv second
+       0 PPtr<Texture> m_Texture
+        0 int m_FileID = 0
+        0 SInt64 m_PathID = 0
+       0 Vector2f m_Scale
+        0 float x = 1
+        0 float y = 1
+       0 Vector2f m_Offset
+        0 float x = 0
+        0 float y = 0
+    [38]
+     0 pair data
+      1 string first = "_MatCapBumpMap"
+      0 UnityTexEnv second
+       0 PPtr<Texture> m_Texture
+        0 int m_FileID = 0
+        0 SInt64 m_PathID = 0
+       0 Vector2f m_Scale
+        0 float x = 1
+        0 float y = 1
+       0 Vector2f m_Offset
+        0 float x = 0
+        0 float y = 0
+    [39]
+     0 pair data
+      1 string first = "_MatCapTex"
+      0 UnityTexEnv second
+       0 PPtr<Texture> m_Texture
+        0 int m_FileID = 0
+        0 SInt64 m_PathID = 0
+       0 Vector2f m_Scale
+        0 float x = 1
+        0 float y = 1
+       0 Vector2f m_Offset
+        0 float x = 0
+        0 float y = 0
+    [40]
+     0 pair data
+      1 string first = "_MetallicGlossMap"
+      0 UnityTexEnv second
+       0 PPtr<Texture> m_Texture
+        0 int m_FileID = 0
+        0 SInt64 m_PathID = 0
+       0 Vector2f m_Scale
+        0 float x = 1
+        0 float y = 1
+       0 Vector2f m_Offset
+        0 float x = 0
+        0 float y = 0
+    [41]
+     0 pair data
+      1 string first = "_OutlineTex"
+      0 UnityTexEnv second
+       0 PPtr<Texture> m_Texture
+        0 int m_FileID = 0
+        0 SInt64 m_PathID = 0
+       0 Vector2f m_Scale
+        0 float x = 1
+        0 float y = 1
+       0 Vector2f m_Offset
+        0 float x = 0
+        0 float y = 0
+    [42]
+     0 pair data
+      1 string first = "_OutlineVectorTex"
+      0 UnityTexEnv second
+       0 PPtr<Texture> m_Texture
+        0 int m_FileID = 0
+        0 SInt64 m_PathID = 0
+       0 Vector2f m_Scale
+        0 float x = 1
+        0 float y = 1
+       0 Vector2f m_Offset
+        0 float x = 0
+        0 float y = 0
+    [43]
+     0 pair data
+      1 string first = "_OutlineWidthMask"
+      0 UnityTexEnv second
+       0 PPtr<Texture> m_Texture
+        0 int m_FileID = 0
+        0 SInt64 m_PathID = 2397355872932745282
+       0 Vector2f m_Scale
+        0 float x = 1
+        0 float y = 1
+       0 Vector2f m_Offset
+        0 float x = 0
+        0 float y = 0
+    [44]
+     0 pair data
+      1 string first = "_ParallaxMap"
+      0 UnityTexEnv second
+       0 PPtr<Texture> m_Texture
+        0 int m_FileID = 0
+        0 SInt64 m_PathID = 0
+       0 Vector2f m_Scale
+        0 float x = 1
+        0 float y = 1
+       0 Vector2f m_Offset
+        0 float x = 0
+        0 float y = 0
+    [45]
+     0 pair data
+      1 string first = "_ReflectionColorTex"
+      0 UnityTexEnv second
+       0 PPtr<Texture> m_Texture
+        0 int m_FileID = 0
+        0 SInt64 m_PathID = 0
+       0 Vector2f m_Scale
+        0 float x = 1
+        0 float y = 1
+       0 Vector2f m_Offset
+        0 float x = 0
+        0 float y = 0
+    [46]
+     0 pair data
+      1 string first = "_ReflectionCubeTex"
+      0 UnityTexEnv second
+       0 PPtr<Texture> m_Texture
+        0 int m_FileID = 0
+        0 SInt64 m_PathID = 0
+       0 Vector2f m_Scale
+        0 float x = 1
+        0 float y = 1
+       0 Vector2f m_Offset
+        0 float x = 0
+        0 float y = 0
+    [47]
+     0 pair data
+      1 string first = "_RimColorTex"
+      0 UnityTexEnv second
+       0 PPtr<Texture> m_Texture
+        0 int m_FileID = 0
+        0 SInt64 m_PathID = 0
+       0 Vector2f m_Scale
+        0 float x = 1
+        0 float y = 1
+       0 Vector2f m_Offset
+        0 float x = 0
+        0 float y = 0
+    [48]
+     0 pair data
+      1 string first = "_RimNoise_6c17688cf9c24afd8a75ac1ec15795f0_Texture2D_2401483582"
+      0 UnityTexEnv second
+       0 PPtr<Texture> m_Texture
+        0 int m_FileID = 0
+        0 SInt64 m_PathID = 6418209573254234882
+       0 Vector2f m_Scale
+        0 float x = 1
+        0 float y = 1
+       0 Vector2f m_Offset
+        0 float x = 0
+        0 float y = 0
+    [49]
+     0 pair data
+      1 string first = "_SampleReflectedCubemap_202542c0e5354b02aa9c36c77f722dbd_Cube_1"
+      0 UnityTexEnv second
+       0 PPtr<Texture> m_Texture
+        0 int m_FileID = 2
+        0 SInt64 m_PathID = 5182375605594859032
+       0 Vector2f m_Scale
+        0 float x = 1
+        0 float y = 1
+       0 Vector2f m_Offset
+        0 float x = 0
+        0 float y = 0
+    [50]
+     0 pair data
+      1 string first = "_SampleTexture2D_94cac7029200437d90481cefcfd0714b_Texture_1"
+      0 UnityTexEnv second
+       0 PPtr<Texture> m_Texture
+        0 int m_FileID = 2
+        0 SInt64 m_PathID = -365768374027575636
+       0 Vector2f m_Scale
+        0 float x = 1
+        0 float y = 1
+       0 Vector2f m_Offset
+        0 float x = 0
+        0 float y = 0
+    [51]
+     0 pair data
+      1 string first = "_Shadow2ndColorTex"
+      0 UnityTexEnv second
+       0 PPtr<Texture> m_Texture
+        0 int m_FileID = 0
+        0 SInt64 m_PathID = 0
+       0 Vector2f m_Scale
+        0 float x = 1
+        0 float y = 1
+       0 Vector2f m_Offset
+        0 float x = 0
+        0 float y = 0
+    [52]
+     0 pair data
+      1 string first = "_Shadow3rdColorTex"
+      0 UnityTexEnv second
+       0 PPtr<Texture> m_Texture
+        0 int m_FileID = 0
+        0 SInt64 m_PathID = 0
+       0 Vector2f m_Scale
+        0 float x = 1
+        0 float y = 1
+       0 Vector2f m_Offset
+        0 float x = 0
+        0 float y = 0
+    [53]
+     0 pair data
+      1 string first = "_ShadowBlurMask"
+      0 UnityTexEnv second
+       0 PPtr<Texture> m_Texture
+        0 int m_FileID = 0
+        0 SInt64 m_PathID = 0
+       0 Vector2f m_Scale
+        0 float x = 1
+        0 float y = 1
+       0 Vector2f m_Offset
+        0 float x = 0
+        0 float y = 0
+    [54]
+     0 pair data
+      1 string first = "_ShadowBorderMask"
+      0 UnityTexEnv second
+       0 PPtr<Texture> m_Texture
+        0 int m_FileID = 0
+        0 SInt64 m_PathID = 0
+       0 Vector2f m_Scale
+        0 float x = 1
+        0 float y = 1
+       0 Vector2f m_Offset
+        0 float x = 0
+        0 float y = 0
+    [55]
+     0 pair data
+      1 string first = "_ShadowColorTex"
+      0 UnityTexEnv second
+       0 PPtr<Texture> m_Texture
+        0 int m_FileID = 0
+        0 SInt64 m_PathID = 0
+       0 Vector2f m_Scale
+        0 float x = 1
+        0 float y = 1
+       0 Vector2f m_Offset
+        0 float x = 0
+        0 float y = 0
+    [56]
+     0 pair data
+      1 string first = "_ShadowStrengthMask"
+      0 UnityTexEnv second
+       0 PPtr<Texture> m_Texture
+        0 int m_FileID = 0
+        0 SInt64 m_PathID = 0
+       0 Vector2f m_Scale
+        0 float x = 1
+        0 float y = 1
+       0 Vector2f m_Offset
+        0 float x = 0
+        0 float y = 0
+    [57]
+     0 pair data
+      1 string first = "_Slow_Texture"
+      0 UnityTexEnv second
+       0 PPtr<Texture> m_Texture
+        0 int m_FileID = 0
+        0 SInt64 m_PathID = 0
+       0 Vector2f m_Scale
+        0 float x = 1
+        0 float y = 1
+       0 Vector2f m_Offset
+        0 float x = 0
+        0 float y = 0
+    [58]
+     0 pair data
+      1 string first = "_SmoothnessTex"
+      0 UnityTexEnv second
+       0 PPtr<Texture> m_Texture
+        0 int m_FileID = 0
+        0 SInt64 m_PathID = 0
+       0 Vector2f m_Scale
+        0 float x = 1
+        0 float y = 1
+       0 Vector2f m_Offset
+        0 float x = 0
+        0 float y = 0
+  0 map m_Ints
+   0 Array Array (0 items)
+    0 int size = 0
+  0 map m_Floats
+   0 Array Array (349 items)
+    0 int size = 349
+    [0]
+     0 pair data
+      1 string first = "_AAStrength"
+      0 float second = 1
+    [1]
+     0 pair data
+      1 string first = "_AlphaBoostFA"
+      0 float second = 10
+    [2]
+     0 pair data
+      1 string first = "_AlphaMaskMode"
+      0 float second = 0
+    [3]
+     0 pair data
+      1 string first = "_AlphaMaskScale"
+      0 float second = 1
+    [4]
+     0 pair data
+      1 string first = "_AlphaMaskValue"
+      0 float second = 0
+    [5]
+     0 pair data
+      1 string first = "_AlphaToMask"
+      0 float second = 0
+    [6]
+     0 pair data
+      1 string first = "_Anisotropy2MatCap"
+      0 float second = 0
+    [7]
+     0 pair data
+      1 string first = "_Anisotropy2MatCap2nd"
+      0 float second = 0
+    [8]
+     0 pair data
+      1 string first = "_Anisotropy2Reflection"
+      0 float second = 0
+    [9]
+     0 pair data
+      1 string first = "_Anisotropy2ndBitangentWidth"
+      0 float second = 1
+    [10]
+     0 pair data
+      1 string first = "_Anisotropy2ndShift"
+      0 float second = 0
+    [11]
+     0 pair data
+      1 string first = "_Anisotropy2ndShiftNoiseScale"
+      0 float second = 0
+    [12]
+     0 pair data
+      1 string first = "_Anisotropy2ndSpecularStrength"
+      0 float second = 0
+    [13]
+     0 pair data
+      1 string first = "_Anisotropy2ndTangentWidth"
+      0 float second = 1
+    [14]
+     0 pair data
+      1 string first = "_AnisotropyBitangentWidth"
+      0 float second = 1
+    [15]
+     0 pair data
+      1 string first = "_AnisotropyScale"
+      0 float second = 1
+    [16]
+     0 pair data
+      1 string first = "_AnisotropyShift"
+      0 float second = 0
+    [17]
+     0 pair data
+      1 string first = "_AnisotropyShiftNoiseScale"
+      0 float second = 0
+    [18]
+     0 pair data
+      1 string first = "_AnisotropySpecularStrength"
+      0 float second = 1
+    [19]
+     0 pair data
+      1 string first = "_AnisotropyTangentWidth"
+      0 float second = 1
+    [20]
+     0 pair data
+      1 string first = "_ApplyReflection"
+      0 float second = 0
+    [21]
+     0 pair data
+      1 string first = "_ApplySpecular"
+      0 float second = 1
+    [22]
+     0 pair data
+      1 string first = "_ApplySpecularFA"
+      0 float second = 1
+    [23]
+     0 pair data
+      1 string first = "_AsOverlay"
+      0 float second = 0
+    [24]
+     0 pair data
+      1 string first = "_AsUnlit"
+      0 float second = 0
+    [25]
+     0 pair data
+      1 string first = "_AudioLink2Emission"
+      0 float second = 0
+    [26]
+     0 pair data
+      1 string first = "_AudioLink2Emission2nd"
+      0 float second = 0
+    [27]
+     0 pair data
+      1 string first = "_AudioLink2Emission2ndGrad"
+      0 float second = 0
+    [28]
+     0 pair data
+      1 string first = "_AudioLink2EmissionGrad"
+      0 float second = 0
+    [29]
+     0 pair data
+      1 string first = "_AudioLink2Main2nd"
+      0 float second = 0
+    [30]
+     0 pair data
+      1 string first = "_AudioLink2Main3rd"
+      0 float second = 0
+    [31]
+     0 pair data
+      1 string first = "_AudioLink2Vertex"
+      0 float second = 0
+    [32]
+     0 pair data
+      1 string first = "_AudioLinkAsLocal"
+      0 float second = 0
+    [33]
+     0 pair data
+      1 string first = "_AudioLinkUVMode"
+      0 float second = 1
+    [34]
+     0 pair data
+      1 string first = "_AudioLinkVertexUVMode"
+      0 float second = 1
+    [35]
+     0 pair data
+      1 string first = "_BackfaceForceShadow"
+      0 float second = 0
+    [36]
+     0 pair data
+      1 string first = "_BacklightBackfaceMask"
+      0 float second = 1
+    [37]
+     0 pair data
+      1 string first = "_BacklightBlur"
+      0 float second = 0,05
+    [38]
+     0 pair data
+      1 string first = "_BacklightBorder"
+      0 float second = 0,35
+    [39]
+     0 pair data
+      1 string first = "_BacklightDirectivity"
+      0 float second = 5
+    [40]
+     0 pair data
+      1 string first = "_BacklightMainStrength"
+      0 float second = 0
+    [41]
+     0 pair data
+      1 string first = "_BacklightNormalStrength"
+      0 float second = 1
+    [42]
+     0 pair data
+      1 string first = "_BacklightReceiveShadow"
+      0 float second = 1
+    [43]
+     0 pair data
+      1 string first = "_BacklightViewStrength"
+      0 float second = 1
+    [44]
+     0 pair data
+      1 string first = "_BeforeExposureLimit"
+      0 float second = 10000
+    [45]
+     0 pair data
+      1 string first = "_BitKey0"
+      0 float second = 0
+    [46]
+     0 pair data
+      1 string first = "_BitKey1"
+      0 float second = 0
+    [47]
+     0 pair data
+      1 string first = "_BitKey10"
+      0 float second = 0
+    [48]
+     0 pair data
+      1 string first = "_BitKey11"
+      0 float second = 0
+    [49]
+     0 pair data
+      1 string first = "_BitKey12"
+      0 float second = 0
+    [50]
+     0 pair data
+      1 string first = "_BitKey13"
+      0 float second = 0
+    [51]
+     0 pair data
+      1 string first = "_BitKey14"
+      0 float second = 0
+    [52]
+     0 pair data
+      1 string first = "_BitKey15"
+      0 float second = 0
+    [53]
+     0 pair data
+      1 string first = "_BitKey16"
+      0 float second = 0
+    [54]
+     0 pair data
+      1 string first = "_BitKey17"
+      0 float second = 0
+    [55]
+     0 pair data
+      1 string first = "_BitKey18"
+      0 float second = 0
+    [56]
+     0 pair data
+      1 string first = "_BitKey19"
+      0 float second = 0
+    [57]
+     0 pair data
+      1 string first = "_BitKey2"
+      0 float second = 0
+    [58]
+     0 pair data
+      1 string first = "_BitKey20"
+      0 float second = 0
+    [59]
+     0 pair data
+      1 string first = "_BitKey21"
+      0 float second = 0
+    [60]
+     0 pair data
+      1 string first = "_BitKey22"
+      0 float second = 0
+    [61]
+     0 pair data
+      1 string first = "_BitKey23"
+      0 float second = 0
+    [62]
+     0 pair data
+      1 string first = "_BitKey24"
+      0 float second = 0
+    [63]
+     0 pair data
+      1 string first = "_BitKey25"
+      0 float second = 0
+    [64]
+     0 pair data
+      1 string first = "_BitKey26"
+      0 float second = 0
+    [65]
+     0 pair data
+      1 string first = "_BitKey27"
+      0 float second = 0
+    [66]
+     0 pair data
+      1 string first = "_BitKey28"
+      0 float second = 0
+    [67]
+     0 pair data
+      1 string first = "_BitKey29"
+      0 float second = 0
+    [68]
+     0 pair data
+      1 string first = "_BitKey3"
+      0 float second = 0
+    [69]
+     0 pair data
+      1 string first = "_BitKey30"
+      0 float second = 0
+    [70]
+     0 pair data
+      1 string first = "_BitKey31"
+      0 float second = 0
+    [71]
+     0 pair data
+      1 string first = "_BitKey4"
+      0 float second = 0
+    [72]
+     0 pair data
+      1 string first = "_BitKey5"
+      0 float second = 0
+    [73]
+     0 pair data
+      1 string first = "_BitKey6"
+      0 float second = 0
+    [74]
+     0 pair data
+      1 string first = "_BitKey7"
+      0 float second = 0
+    [75]
+     0 pair data
+      1 string first = "_BitKey8"
+      0 float second = 0
+    [76]
+     0 pair data
+      1 string first = "_BitKey9"
+      0 float second = 0
+    [77]
+     0 pair data
+      1 string first = "_BlendOp"
+      0 float second = 0
+    [78]
+     0 pair data
+      1 string first = "_BlendOpAlpha"
+      0 float second = 0
+    [79]
+     0 pair data
+      1 string first = "_BlendOpAlphaFA"
+      0 float second = 4
+    [80]
+     0 pair data
+      1 string first = "_BlendOpFA"
+      0 float second = 4
+    [81]
+     0 pair data
+      1 string first = "_Bump2ndMap_UVMode"
+      0 float second = 0
+    [82]
+     0 pair data
+      1 string first = "_Bump2ndScale"
+      0 float second = 1
+    [83]
+     0 pair data
+      1 string first = "_BumpScale"
+      0 float second = 1
+    [84]
+     0 pair data
+      1 string first = "_ColorMask"
+      0 float second = 15
+    [85]
+     0 pair data
+      1 string first = "_Cull"
+      0 float second = 2
+    [86]
+     0 pair data
+      1 string first = "_Cutoff"
+      0 float second = 0,5
+    [87]
+     0 pair data
+      1 string first = "_DAMAGE"
+      0 float second = 0
+    [88]
+     0 pair data
+      1 string first = "_DissolveNoiseStrength"
+      0 float second = 0,1
+    [89]
+     0 pair data
+      1 string first = "_DstBlend"
+      0 float second = 0
+    [90]
+     0 pair data
+      1 string first = "_DstBlendAlpha"
+      0 float second = 10
+    [91]
+     0 pair data
+      1 string first = "_DstBlendAlphaFA"
+      0 float second = 1
+    [92]
+     0 pair data
+      1 string first = "_DstBlendFA"
+      0 float second = 1
+    [93]
+     0 pair data
+      1 string first = "_Emission2ndBlend"
+      0 float second = 1
+    [94]
+     0 pair data
+      1 string first = "_Emission2ndBlendMode"
+      0 float second = 1
+    [95]
+     0 pair data
+      1 string first = "_Emission2ndFluorescence"
+      0 float second = 0
+    [96]
+     0 pair data
+      1 string first = "_Emission2ndGradSpeed"
+      0 float second = 1
+    [97]
+     0 pair data
+      1 string first = "_Emission2ndMainStrength"
+      0 float second = 0
+    [98]
+     0 pair data
+      1 string first = "_Emission2ndMap_UVMode"
+      0 float second = 0
+    [99]
+     0 pair data
+      1 string first = "_Emission2ndParallaxDepth"
+      0 float second = 0
+    [100]
+     0 pair data
+      1 string first = "_Emission2ndUseGrad"
+      0 float second = 0
+    [101]
+     0 pair data
+      1 string first = "_EmissionBlend"
+      0 float second = 1
+    [102]
+     0 pair data
+      1 string first = "_EmissionBlendMode"
+      0 float second = 1
+    [103]
+     0 pair data
+      1 string first = "_EmissionFluorescence"
+      0 float second = 0
+    [104]
+     0 pair data
+      1 string first = "_EmissionGradSpeed"
+      0 float second = 1
+    [105]
+     0 pair data
+      1 string first = "_EmissionMainStrength"
+      0 float second = 0
+    [106]
+     0 pair data
+      1 string first = "_EmissionMap_UVMode"
+      0 float second = 0
+    [107]
+     0 pair data
+      1 string first = "_EmissionParallaxDepth"
+      0 float second = 0
+    [108]
+     0 pair data
+      1 string first = "_EmissionUseGrad"
+      0 float second = 0
+    [109]
+     0 pair data
+      1 string first = "_FlipNormal"
+      0 float second = 0
+    [110]
+     0 pair data
+      1 string first = "_GSAAStrength"
+      0 float second = 0
+    [111]
+     0 pair data
+      1 string first = "_GlitterAngleRandomize"
+      0 float second = 0
+    [112]
+     0 pair data
+      1 string first = "_GlitterApplyShape"
+      0 float second = 0
+    [113]
+     0 pair data
+      1 string first = "_GlitterApplyTransparency"
+      0 float second = 1
+    [114]
+     0 pair data
+      1 string first = "_GlitterBackfaceMask"
+      0 float second = 0
+    [115]
+     0 pair data
+      1 string first = "_GlitterColorTex_UVMode"
+      0 float second = 0
+    [116]
+     0 pair data
+      1 string first = "_GlitterEnableLighting"
+      0 float second = 1
+    [117]
+     0 pair data
+      1 string first = "_GlitterMainStrength"
+      0 float second = 0
+    [118]
+     0 pair data
+      1 string first = "_GlitterNormalStrength"
+      0 float second = 1
+    [119]
+     0 pair data
+      1 string first = "_GlitterPostContrast"
+      0 float second = 1
+    [120]
+     0 pair data
+      1 string first = "_GlitterScaleRandomize"
+      0 float second = 0
+    [121]
+     0 pair data
+      1 string first = "_GlitterSensitivity"
+      0 float second = 0,25
+    [122]
+     0 pair data
+      1 string first = "_GlitterShadowMask"
+      0 float second = 0
+    [123]
+     0 pair data
+      1 string first = "_GlitterUVMode"
+      0 float second = 0
+    [124]
+     0 pair data
+      1 string first = "_GlitterVRParallaxStrength"
+      0 float second = 0
+    [125]
+     0 pair data
+      1 string first = "_IgnoreEncryption"
+      0 float second = 0
+    [126]
+     0 pair data
+      1 string first = "_Invisible"
+      0 float second = 0
+    [127]
+     0 pair data
+      1 string first = "_LightMaxLimit"
+      0 float second = 0,96
+    [128]
+     0 pair data
+      1 string first = "_LightMinLimit"
+      0 float second = 0,05
+    [129]
+     0 pair data
+      1 string first = "_Main2ndDissolveNoiseStrength"
+      0 float second = 0,1
+    [130]
+     0 pair data
+      1 string first = "_Main2ndEnableLighting"
+      0 float second = 1
+    [131]
+     0 pair data
+      1 string first = "_Main2ndTexAngle"
+      0 float second = 0
+    [132]
+     0 pair data
+      1 string first = "_Main2ndTexBlendMode"
+      0 float second = 0
+    [133]
+     0 pair data
+      1 string first = "_Main2ndTexIsDecal"
+      0 float second = 0
+    [134]
+     0 pair data
+      1 string first = "_Main2ndTexIsLeftOnly"
+      0 float second = 0
+    [135]
+     0 pair data
+      1 string first = "_Main2ndTexIsMSDF"
+      0 float second = 0
+    [136]
+     0 pair data
+      1 string first = "_Main2ndTexIsRightOnly"
+      0 float second = 0
+    [137]
+     0 pair data
+      1 string first = "_Main2ndTexShouldCopy"
+      0 float second = 0
+    [138]
+     0 pair data
+      1 string first = "_Main2ndTexShouldFlipCopy"
+      0 float second = 0
+    [139]
+     0 pair data
+      1 string first = "_Main2ndTexShouldFlipMirror"
+      0 float second = 0
+    [140]
+     0 pair data
+      1 string first = "_Main2ndTex_Cull"
+      0 float second = 0
+    [141]
+     0 pair data
+      1 string first = "_Main2ndTex_UVMode"
+      0 float second = 0
+    [142]
+     0 pair data
+      1 string first = "_Main3rdDissolveNoiseStrength"
+      0 float second = 0,1
+    [143]
+     0 pair data
+      1 string first = "_Main3rdEnableLighting"
+      0 float second = 1
+    [144]
+     0 pair data
+      1 string first = "_Main3rdTexAngle"
+      0 float second = 0
+    [145]
+     0 pair data
+      1 string first = "_Main3rdTexBlendMode"
+      0 float second = 0
+    [146]
+     0 pair data
+      1 string first = "_Main3rdTexIsDecal"
+      0 float second = 0
+    [147]
+     0 pair data
+      1 string first = "_Main3rdTexIsLeftOnly"
+      0 float second = 0
+    [148]
+     0 pair data
+      1 string first = "_Main3rdTexIsMSDF"
+      0 float second = 0
+    [149]
+     0 pair data
+      1 string first = "_Main3rdTexIsRightOnly"
+      0 float second = 0
+    [150]
+     0 pair data
+      1 string first = "_Main3rdTexShouldCopy"
+      0 float second = 0
+    [151]
+     0 pair data
+      1 string first = "_Main3rdTexShouldFlipCopy"
+      0 float second = 0
+    [152]
+     0 pair data
+      1 string first = "_Main3rdTexShouldFlipMirror"
+      0 float second = 0
+    [153]
+     0 pair data
+      1 string first = "_Main3rdTex_Cull"
+      0 float second = 0
+    [154]
+     0 pair data
+      1 string first = "_Main3rdTex_UVMode"
+      0 float second = 0
+    [155]
+     0 pair data
+      1 string first = "_MainGradationStrength"
+      0 float second = 0
+    [156]
+     0 pair data
+      1 string first = "_MatCap2ndApplyTransparency"
+      0 float second = 1
+    [157]
+     0 pair data
+      1 string first = "_MatCap2ndBackfaceMask"
+      0 float second = 0
+    [158]
+     0 pair data
+      1 string first = "_MatCap2ndBlend"
+      0 float second = 1
+    [159]
+     0 pair data
+      1 string first = "_MatCap2ndBlendMode"
+      0 float second = 1
+    [160]
+     0 pair data
+      1 string first = "_MatCap2ndBumpScale"
+      0 float second = 1
+    [161]
+     0 pair data
+      1 string first = "_MatCap2ndCustomNormal"
+      0 float second = 0
+    [162]
+     0 pair data
+      1 string first = "_MatCap2ndEnableLighting"
+      0 float second = 1
+    [163]
+     0 pair data
+      1 string first = "_MatCap2ndLod"
+      0 float second = 0
+    [164]
+     0 pair data
+      1 string first = "_MatCap2ndMainStrength"
+      0 float second = 0
+    [165]
+     0 pair data
+      1 string first = "_MatCap2ndNormalStrength"
+      0 float second = 1
+    [166]
+     0 pair data
+      1 string first = "_MatCap2ndPerspective"
+      0 float second = 1
+    [167]
+     0 pair data
+      1 string first = "_MatCap2ndShadowMask"
+      0 float second = 0
+    [168]
+     0 pair data
+      1 string first = "_MatCap2ndVRParallaxStrength"
+      0 float second = 1
+    [169]
+     0 pair data
+      1 string first = "_MatCap2ndZRotCancel"
+      0 float second = 1
+    [170]
+     0 pair data
+      1 string first = "_MatCapApplyTransparency"
+      0 float second = 1
+    [171]
+     0 pair data
+      1 string first = "_MatCapBackfaceMask"
+      0 float second = 0
+    [172]
+     0 pair data
+      1 string first = "_MatCapBlend"
+      0 float second = 1
+    [173]
+     0 pair data
+      1 string first = "_MatCapBlendMode"
+      0 float second = 1
+    [174]
+     0 pair data
+      1 string first = "_MatCapBumpScale"
+      0 float second = 1
+    [175]
+     0 pair data
+      1 string first = "_MatCapCustomNormal"
+      0 float second = 0
+    [176]
+     0 pair data
+      1 string first = "_MatCapEnableLighting"
+      0 float second = 1
+    [177]
+     0 pair data
+      1 string first = "_MatCapLod"
+      0 float second = 0
+    [178]
+     0 pair data
+      1 string first = "_MatCapMainStrength"
+      0 float second = 0
+    [179]
+     0 pair data
+      1 string first = "_MatCapNormalStrength"
+      0 float second = 1
+    [180]
+     0 pair data
+      1 string first = "_MatCapPerspective"
+      0 float second = 1
+    [181]
+     0 pair data
+      1 string first = "_MatCapShadowMask"
+      0 float second = 0
+    [182]
+     0 pair data
+      1 string first = "_MatCapVRParallaxStrength"
+      0 float second = 1
+    [183]
+     0 pair data
+      1 string first = "_MatCapZRotCancel"
+      0 float second = 1
+    [184]
+     0 pair data
+      1 string first = "_Metallic"
+      0 float second = 0
+    [185]
+     0 pair data
+      1 string first = "_MonochromeLighting"
+      0 float second = 0
+    [186]
+     0 pair data
+      1 string first = "_OffsetFactor"
+      0 float second = 0
+    [187]
+     0 pair data
+      1 string first = "_OffsetUnits"
+      0 float second = 0
+    [188]
+     0 pair data
+      1 string first = "_OutlineAlphaToMask"
+      0 float second = 0
+    [189]
+     0 pair data
+      1 string first = "_OutlineBlendOp"
+      0 float second = 0
+    [190]
+     0 pair data
+      1 string first = "_OutlineBlendOpAlpha"
+      0 float second = 0
+    [191]
+     0 pair data
+      1 string first = "_OutlineBlendOpAlphaFA"
+      0 float second = 4
+    [192]
+     0 pair data
+      1 string first = "_OutlineBlendOpFA"
+      0 float second = 4
+    [193]
+     0 pair data
+      1 string first = "_OutlineColorMask"
+      0 float second = 15
+    [194]
+     0 pair data
+      1 string first = "_OutlineCull"
+      0 float second = 1
+    [195]
+     0 pair data
+      1 string first = "_OutlineDeleteMesh"
+      0 float second = 0
+    [196]
+     0 pair data
+      1 string first = "_OutlineDisableInVR"
+      0 float second = 0
+    [197]
+     0 pair data
+      1 string first = "_OutlineDstBlend"
+      0 float second = 0
+    [198]
+     0 pair data
+      1 string first = "_OutlineDstBlendAlpha"
+      0 float second = 10
+    [199]
+     0 pair data
+      1 string first = "_OutlineDstBlendAlphaFA"
+      0 float second = 1
+    [200]
+     0 pair data
+      1 string first = "_OutlineDstBlendFA"
+      0 float second = 1
+    [201]
+     0 pair data
+      1 string first = "_OutlineEnableLighting"
+      0 float second = 1
+    [202]
+     0 pair data
+      1 string first = "_OutlineFixWidth"
+      0 float second = 0,5
+    [203]
+     0 pair data
+      1 string first = "_OutlineLitApplyTex"
+      0 float second = 0
+    [204]
+     0 pair data
+      1 string first = "_OutlineLitOffset"
+      0 float second = -8
+    [205]
+     0 pair data
+      1 string first = "_OutlineLitScale"
+      0 float second = 10
+    [206]
+     0 pair data
+      1 string first = "_OutlineLitShadowReceive"
+      0 float second = 0
+    [207]
+     0 pair data
+      1 string first = "_OutlineOffsetFactor"
+      0 float second = 0
+    [208]
+     0 pair data
+      1 string first = "_OutlineOffsetUnits"
+      0 float second = 0
+    [209]
+     0 pair data
+      1 string first = "_OutlineSrcBlend"
+      0 float second = 1
+    [210]
+     0 pair data
+      1 string first = "_OutlineSrcBlendAlpha"
+      0 float second = 1
+    [211]
+     0 pair data
+      1 string first = "_OutlineSrcBlendAlphaFA"
+      0 float second = 0
+    [212]
+     0 pair data
+      1 string first = "_OutlineSrcBlendFA"
+      0 float second = 1
+    [213]
+     0 pair data
+      1 string first = "_OutlineStencilComp"
+      0 float second = 7
+    [214]
+     0 pair data
+      1 string first = "_OutlineStencilFail"
+      0 float second = 0
+    [215]
+     0 pair data
+      1 string first = "_OutlineStencilPass"
+      0 float second = 2
+    [216]
+     0 pair data
+      1 string first = "_OutlineStencilReadMask"
+      0 float second = 255
+    [217]
+     0 pair data
+      1 string first = "_OutlineStencilRef"
+      0 float second = 2
+    [218]
+     0 pair data
+      1 string first = "_OutlineStencilWriteMask"
+      0 float second = 255
+    [219]
+     0 pair data
+      1 string first = "_OutlineStencilZFail"
+      0 float second = 0
+    [220]
+     0 pair data
+      1 string first = "_OutlineVectorScale"
+      0 float second = 1
+    [221]
+     0 pair data
+      1 string first = "_OutlineVectorUVMode"
+      0 float second = 0
+    [222]
+     0 pair data
+      1 string first = "_OutlineVertexR2Width"
+      0 float second = 0
+    [223]
+     0 pair data
+      1 string first = "_OutlineWidth"
+      0 float second = 0,5
+    [224]
+     0 pair data
+      1 string first = "_OutlineZBias"
+      0 float second = 0
+    [225]
+     0 pair data
+      1 string first = "_OutlineZClip"
+      0 float second = 1
+    [226]
+     0 pair data
+      1 string first = "_OutlineZTest"
+      0 float second = 2
+    [227]
+     0 pair data
+      1 string first = "_OutlineZWrite"
+      0 float second = 1
+    [228]
+     0 pair data
+      1 string first = "_Parallax"
+      0 float second = 0,02
+    [229]
+     0 pair data
+      1 string first = "_ParallaxOffset"
+      0 float second = 0,5
+    [230]
+     0 pair data
+      1 string first = "_Reflectance"
+      0 float second = 0,04
+    [231]
+     0 pair data
+      1 string first = "_ReflectionApplyTransparency"
+      0 float second = 1
+    [232]
+     0 pair data
+      1 string first = "_ReflectionBlendMode"
+      0 float second = 1
+    [233]
+     0 pair data
+      1 string first = "_ReflectionCubeEnableLighting"
+      0 float second = 1
+    [234]
+     0 pair data
+      1 string first = "_ReflectionCubeOverride"
+      0 float second = 0
+    [235]
+     0 pair data
+      1 string first = "_ReflectionNormalStrength"
+      0 float second = 1
+    [236]
+     0 pair data
+      1 string first = "_RimApplyTransparency"
+      0 float second = 1
+    [237]
+     0 pair data
+      1 string first = "_RimBackfaceMask"
+      0 float second = 1
+    [238]
+     0 pair data
+      1 string first = "_RimBlendMode"
+      0 float second = 1
+    [239]
+     0 pair data
+      1 string first = "_RimBlur"
+      0 float second = 0,547
+    [240]
+     0 pair data
+      1 string first = "_RimBorder"
+      0 float second = 0,436
+    [241]
+     0 pair data
+      1 string first = "_RimDirRange"
+      0 float second = 0
+    [242]
+     0 pair data
+      1 string first = "_RimDirStrength"
+      0 float second = 0
+    [243]
+     0 pair data
+      1 string first = "_RimEnableLighting"
+      0 float second = 1
+    [244]
+     0 pair data
+      1 string first = "_RimFresnelPower"
+      0 float second = 3,5
+    [245]
+     0 pair data
+      1 string first = "_RimIndirBlur"
+      0 float second = 0,1
+    [246]
+     0 pair data
+      1 string first = "_RimIndirBorder"
+      0 float second = 0,5
+    [247]
+     0 pair data
+      1 string first = "_RimIndirRange"
+      0 float second = 0
+    [248]
+     0 pair data
+      1 string first = "_RimMainStrength"
+      0 float second = 0
+    [249]
+     0 pair data
+      1 string first = "_RimNormalStrength"
+      0 float second = 1
+    [250]
+     0 pair data
+      1 string first = "_RimShadowMask"
+      0 float second = 0,5
+    [251]
+     0 pair data
+      1 string first = "_RimVRParallaxStrength"
+      0 float second = 1
+    [252]
+     0 pair data
+      1 string first = "_Rim_Albedo"
+      0 float second = 0,6
+    [253]
+     0 pair data
+      1 string first = "_Rim_NoiseBlendMode"
+      0 float second = 0
+    [254]
+     0 pair data
+      1 string first = "_Rim_NoiseBlur"
+      0 float second = 0,65
+    [255]
+     0 pair data
+      1 string first = "_Rim_NoiseBorder"
+      0 float second = 0,5
+    [256]
+     0 pair data
+      1 string first = "_Rim_NoiseColorSpeed"
+      0 float second = -0,5
+    [257]
+     0 pair data
+      1 string first = "_Rim_NoiseFresnelPower"
+      0 float second = 3,5
+    [258]
+     0 pair data
+      1 string first = "_Rim_NoiseIntensity"
+      0 float second = 0
+    [259]
+     0 pair data
+      1 string first = "_Rim_NoiseSpeed"
+      0 float second = -0,07
+    [260]
+     0 pair data
+      1 string first = "_Rim_NoiseTiling"
+      0 float second = 14
+    [261]
+     0 pair data
+      1 string first = "_Rim_OptSWITCH"
+      0 float second = 0
+    [262]
+     0 pair data
+      1 string first = "_Rim_Power"
+      0 float second = 1,6
+    [263]
+     0 pair data
+      1 string first = "_Rim_SWITCH"
+      0 float second = 1
+    [264]
+     0 pair data
+      1 string first = "_Rim_SlowSWITCH"
+      0 float second = 0
+    [265]
+     0 pair data
+      1 string first = "_Rim_VisionSWITCH"
+      0 float second = 0
+    [266]
+     0 pair data
+      1 string first = "_Shadow2ndBlur"
+      0 float second = 0,133
+    [267]
+     0 pair data
+      1 string first = "_Shadow2ndBorder"
+      0 float second = 0,323
+    [268]
+     0 pair data
+      1 string first = "_Shadow2ndNormalStrength"
+      0 float second = 1
+    [269]
+     0 pair data
+      1 string first = "_Shadow2ndReceive"
+      0 float second = 0
+    [270]
+     0 pair data
+      1 string first = "_Shadow3rdBlur"
+      0 float second = 0,1
+    [271]
+     0 pair data
+      1 string first = "_Shadow3rdBorder"
+      0 float second = 0,25
+    [272]
+     0 pair data
+      1 string first = "_Shadow3rdNormalStrength"
+      0 float second = 1
+    [273]
+     0 pair data
+      1 string first = "_Shadow3rdReceive"
+      0 float second = 0
+    [274]
+     0 pair data
+      1 string first = "_ShadowBlur"
+      0 float second = 0,042
+    [275]
+     0 pair data
+      1 string first = "_ShadowBlurMaskLOD"
+      0 float second = 0
+    [276]
+     0 pair data
+      1 string first = "_ShadowBorder"
+      0 float second = 0,493
+    [277]
+     0 pair data
+      1 string first = "_ShadowBorderMaskLOD"
+      0 float second = 0
+    [278]
+     0 pair data
+      1 string first = "_ShadowBorderRange"
+      0 float second = 0,08
+    [279]
+     0 pair data
+      1 string first = "_ShadowColorType"
+      0 float second = 0
+    [280]
+     0 pair data
+      1 string first = "_ShadowEnvStrength"
+      0 float second = 0
+    [281]
+     0 pair data
+      1 string first = "_ShadowFlatBlur"
+      0 float second = 1
+    [282]
+     0 pair data
+      1 string first = "_ShadowFlatBorder"
+      0 float second = 1
+    [283]
+     0 pair data
+      1 string first = "_ShadowMainStrength"
+      0 float second = 0
+    [284]
+     0 pair data
+      1 string first = "_ShadowMaskType"
+      0 float second = 0
+    [285]
+     0 pair data
+      1 string first = "_ShadowNormalStrength"
+      0 float second = 1
+    [286]
+     0 pair data
+      1 string first = "_ShadowPostAO"
+      0 float second = 0
+    [287]
+     0 pair data
+      1 string first = "_ShadowReceive"
+      0 float second = 0
+    [288]
+     0 pair data
+      1 string first = "_ShadowStrength"
+      0 float second = 1
+    [289]
+     0 pair data
+      1 string first = "_ShadowStrengthMaskLOD"
+      0 float second = 0
+    [290]
+     0 pair data
+      1 string first = "_ShiftBackfaceUV"
+      0 float second = 0
+    [291]
+     0 pair data
+      1 string first = "_Slow_FadeSpeed"
+      0 float second = 1,5
+    [292]
+     0 pair data
+      1 string first = "_Slow_PatternChangeSpeed"
+      0 float second = 2
+    [293]
+     0 pair data
+      1 string first = "_Slow_Saturation"
+      0 float second = 1
+    [294]
+     0 pair data
+      1 string first = "_Slow_ScrollSpeed"
+      0 float second = 0,75
+    [295]
+     0 pair data
+      1 string first = "_Slow_SentenceLength"
+      0 float second = 30
+    [296]
+     0 pair data
+      1 string first = "_Slow_WorldPositionScale"
+      0 float second = 20
+    [297]
+     0 pair data
+      1 string first = "_Smoothness"
+      0 float second = 1
+    [298]
+     0 pair data
+      1 string first = "_SpecularBlur"
+      0 float second = 0
+    [299]
+     0 pair data
+      1 string first = "_SpecularBorder"
+      0 float second = 0,5
+    [300]
+     0 pair data
+      1 string first = "_SpecularNormalStrength"
+      0 float second = 1
+    [301]
+     0 pair data
+      1 string first = "_SpecularToon"
+      0 float second = 1
+    [302]
+     0 pair data
+      1 string first = "_SrcBlend"
+      0 float second = 1
+    [303]
+     0 pair data
+      1 string first = "_SrcBlendAlpha"
+      0 float second = 1
+    [304]
+     0 pair data
+      1 string first = "_SrcBlendAlphaFA"
+      0 float second = 0
+    [305]
+     0 pair data
+      1 string first = "_SrcBlendFA"
+      0 float second = 1
+    [306]
+     0 pair data
+      1 string first = "_StencilComp"
+      0 float second = 7
+    [307]
+     0 pair data
+      1 string first = "_StencilFail"
+      0 float second = 0
+    [308]
+     0 pair data
+      1 string first = "_StencilPass"
+      0 float second = 2
+    [309]
+     0 pair data
+      1 string first = "_StencilReadMask"
+      0 float second = 255
+    [310]
+     0 pair data
+      1 string first = "_StencilRef"
+      0 float second = 2
+    [311]
+     0 pair data
+      1 string first = "_StencilWriteMask"
+      0 float second = 255
+    [312]
+     0 pair data
+      1 string first = "_StencilZFail"
+      0 float second = 0
+    [313]
+     0 pair data
+      1 string first = "_SubpassCutoff"
+      0 float second = 0,5
+    [314]
+     0 pair data
+      1 string first = "_TessEdge"
+      0 float second = 10
+    [315]
+     0 pair data
+      1 string first = "_TessFactorMax"
+      0 float second = 3
+    [316]
+     0 pair data
+      1 string first = "_TessShrink"
+      0 float second = 0
+    [317]
+     0 pair data
+      1 string first = "_TessStrength"
+      0 float second = 0,5
+    [318]
+     0 pair data
+      1 string first = "_TransparentMode"
+      0 float second = 0
+    [319]
+     0 pair data
+      1 string first = "_UseAnisotropy"
+      0 float second = 0
+    [320]
+     0 pair data
+      1 string first = "_UseAudioLink"
+      0 float second = 0
+    [321]
+     0 pair data
+      1 string first = "_UseBacklight"
+      0 float second = 0
+    [322]
+     0 pair data
+      1 string first = "_UseBump2ndMap"
+      0 float second = 0
+    [323]
+     0 pair data
+      1 string first = "_UseBumpMap"
+      0 float second = 0
+    [324]
+     0 pair data
+      1 string first = "_UseClippingCanceller"
+      0 float second = 0
+    [325]
+     0 pair data
+      1 string first = "_UseEmission"
+      0 float second = 0
+    [326]
+     0 pair data
+      1 string first = "_UseEmission2nd"
+      0 float second = 0
+    [327]
+     0 pair data
+      1 string first = "_UseGlitter"
+      0 float second = 0
+    [328]
+     0 pair data
+      1 string first = "_UseMain2ndTex"
+      0 float second = 0
+    [329]
+     0 pair data
+      1 string first = "_UseMain3rdTex"
+      0 float second = 0
+    [330]
+     0 pair data
+      1 string first = "_UseMatCap"
+      0 float second = 0
+    [331]
+     0 pair data
+      1 string first = "_UseMatCap2nd"
+      0 float second = 0
+    [332]
+     0 pair data
+      1 string first = "_UseOutline"
+      0 float second = 0
+    [333]
+     0 pair data
+      1 string first = "_UsePOM"
+      0 float second = 0
+    [334]
+     0 pair data
+      1 string first = "_UseParallax"
+      0 float second = 0
+    [335]
+     0 pair data
+      1 string first = "_UseReflection"
+      0 float second = 0
+    [336]
+     0 pair data
+      1 string first = "_UseRim"
+      0 float second = 1
+    [337]
+     0 pair data
+      1 string first = "_UseShadow"
+      0 float second = 1
+    [338]
+     0 pair data
+      1 string first = "_VertexLightStrength"
+      0 float second = 1
+    [339]
+     0 pair data
+      1 string first = "_ZClip"
+      0 float second = 1
+    [340]
+     0 pair data
+      1 string first = "_ZTest"
+      0 float second = 4
+    [341]
+     0 pair data
+      1 string first = "_ZWrite"
+      0 float second = 1
+    [342]
+     0 pair data
+      1 string first = "_e2gai"
+      0 float second = 2
+    [343]
+     0 pair data
+      1 string first = "_e2gci"
+      0 float second = 2
+    [344]
+     0 pair data
+      1 string first = "_egai"
+      0 float second = 2
+    [345]
+     0 pair data
+      1 string first = "_egci"
+      0 float second = 2
+    [346]
+     0 pair data
+      1 string first = "_lilDirectionalLightStrength"
+      0 float second = 1
+    [347]
+     0 pair data
+      1 string first = "_lilShadowCasterBias"
+      0 float second = 0
+    [348]
+     0 pair data
+      1 string first = "_lilToonVersion"
+      0 float second = 33
+  0 map m_Colors
+   0 Array Array (107 items)
+    0 int size = 107
+    [0]
+     0 pair data
+      1 string first = "_AudioLinkDefaultValue"
+      0 ColorRGBA second
+       0 float r = 0
+       0 float g = 0
+       0 float b = 2
+       0 float a = 0,75
+    [1]
+     0 pair data
+      1 string first = "_AudioLinkLocalMapParams"
+      0 ColorRGBA second
+       0 float r = 120
+       0 float g = 1
+       0 float b = 0
+       0 float a = 0
+    [2]
+     0 pair data
+      1 string first = "_AudioLinkStart"
+      0 ColorRGBA second
+       0 float r = 0
+       0 float g = 0
+       0 float b = 0
+       0 float a = 0
+    [3]
+     0 pair data
+      1 string first = "_AudioLinkUVParams"
+      0 ColorRGBA second
+       0 float r = 0,25
+       0 float g = 0
+       0 float b = 0
+       0 float a = 0,125
+    [4]
+     0 pair data
+      1 string first = "_AudioLinkVertexStart"
+      0 ColorRGBA second
+       0 float r = 0
+       0 float g = 0
+       0 float b = 0
+       0 float a = 0
+    [5]
+     0 pair data
+      1 string first = "_AudioLinkVertexStrength"
+      0 ColorRGBA second
+       0 float r = 0
+       0 float g = 0
+       0 float b = 0
+       0 float a = 1
+    [6]
+     0 pair data
+      1 string first = "_AudioLinkVertexUVParams"
+      0 ColorRGBA second
+       0 float r = 0,25
+       0 float g = 0
+       0 float b = 0
+       0 float a = 0,125
+    [7]
+     0 pair data
+      1 string first = "_BackfaceColor"
+      0 ColorRGBA second
+       0 float r = 0
+       0 float g = 0
+       0 float b = 0
+       0 float a = 0
+    [8]
+     0 pair data
+      1 string first = "_BacklightColor"
+      0 ColorRGBA second
+       0 float r = 0,85
+       0 float g = 0,8
+       0 float b = 0,7
+       0 float a = 1
+    [9]
+     0 pair data
+      1 string first = "_BaseColor"
+      0 ColorRGBA second
+       0 float r = 1
+       0 float g = 1
+       0 float b = 1
+       0 float a = 1
+    [10]
+     0 pair data
+      1 string first = "_Color"
+      0 ColorRGBA second
+       0 float r = 1
+       0 float g = 1
+       0 float b = 1
+       0 float a = 1
+    [11]
+     0 pair data
+      1 string first = "_Color2nd"
+      0 ColorRGBA second
+       0 float r = 1
+       0 float g = 1
+       0 float b = 1
+       0 float a = 1
+    [12]
+     0 pair data
+      1 string first = "_Color3rd"
+      0 ColorRGBA second
+       0 float r = 1
+       0 float g = 1
+       0 float b = 1
+       0 float a = 1
+    [13]
+     0 pair data
+      1 string first = "_DissolveColor"
+      0 ColorRGBA second
+       0 float r = 1
+       0 float g = 1
+       0 float b = 1
+       0 float a = 1
+    [14]
+     0 pair data
+      1 string first = "_DissolveNoiseMask_ScrollRotate"
+      0 ColorRGBA second
+       0 float r = 0
+       0 float g = 0
+       0 float b = 0
+       0 float a = 0
+    [15]
+     0 pair data
+      1 string first = "_DissolveParams"
+      0 ColorRGBA second
+       0 float r = 0
+       0 float g = 0
+       0 float b = 0,5
+       0 float a = 0,1
+    [16]
+     0 pair data
+      1 string first = "_DissolvePos"
+      0 ColorRGBA second
+       0 float r = 0
+       0 float g = 0
+       0 float b = 0
+       0 float a = 0
+    [17]
+     0 pair data
+      1 string first = "_DistanceFade"
+      0 ColorRGBA second
+       0 float r = 0,1
+       0 float g = 0,01
+       0 float b = 0
+       0 float a = 0
+    [18]
+     0 pair data
+      1 string first = "_DistanceFadeColor"
+      0 ColorRGBA second
+       0 float r = 0
+       0 float g = 0
+       0 float b = 0
+       0 float a = 1
+    [19]
+     0 pair data
+      1 string first = "_Emission2ndBlendMask_ScrollRotate"
+      0 ColorRGBA second
+       0 float r = 0
+       0 float g = 0
+       0 float b = 0
+       0 float a = 0
+    [20]
+     0 pair data
+      1 string first = "_Emission2ndBlink"
+      0 ColorRGBA second
+       0 float r = 0
+       0 float g = 0
+       0 float b = 3,141593
+       0 float a = 0
+    [21]
+     0 pair data
+      1 string first = "_Emission2ndColor"
+      0 ColorRGBA second
+       0 float r = 1
+       0 float g = 1
+       0 float b = 1
+       0 float a = 1
+    [22]
+     0 pair data
+      1 string first = "_Emission2ndMap_ScrollRotate"
+      0 ColorRGBA second
+       0 float r = 0
+       0 float g = 0
+       0 float b = 0
+       0 float a = 0
+    [23]
+     0 pair data
+      1 string first = "_EmissionBlendMask_ScrollRotate"
+      0 ColorRGBA second
+       0 float r = 0
+       0 float g = 0
+       0 float b = 0
+       0 float a = 0
+    [24]
+     0 pair data
+      1 string first = "_EmissionBlink"
+      0 ColorRGBA second
+       0 float r = 0
+       0 float g = 0
+       0 float b = 3,141593
+       0 float a = 0
+    [25]
+     0 pair data
+      1 string first = "_EmissionColor"
+      0 ColorRGBA second
+       0 float r = 1
+       0 float g = 1
+       0 float b = 1
+       0 float a = 1
+    [26]
+     0 pair data
+      1 string first = "_EmissionMap_ScrollRotate"
+      0 ColorRGBA second
+       0 float r = 0
+       0 float g = 0
+       0 float b = 0
+       0 float a = 0
+    [27]
+     0 pair data
+      1 string first = "_GlitterAtras"
+      0 ColorRGBA second
+       0 float r = 1
+       0 float g = 1
+       0 float b = 0
+       0 float a = 0
+    [28]
+     0 pair data
+      1 string first = "_GlitterColor"
+      0 ColorRGBA second
+       0 float r = 1
+       0 float g = 1
+       0 float b = 1
+       0 float a = 1
+    [29]
+     0 pair data
+      1 string first = "_GlitterParams1"
+      0 ColorRGBA second
+       0 float r = 256
+       0 float g = 256
+       0 float b = 0,16
+       0 float a = 50
+    [30]
+     0 pair data
+      1 string first = "_GlitterParams2"
+      0 ColorRGBA second
+       0 float r = 0,25
+       0 float g = 0
+       0 float b = 0
+       0 float a = 0
+    [31]
+     0 pair data
+      1 string first = "_Keys"
+      0 ColorRGBA second
+       0 float r = 0
+       0 float g = 0
+       0 float b = 0
+       0 float a = 0
+    [32]
+     0 pair data
+      1 string first = "_LightDirectionOverride"
+      0 ColorRGBA second
+       0 float r = 0,001
+       0 float g = 0,002
+       0 float b = 0,001
+       0 float a = 0
+    [33]
+     0 pair data
+      1 string first = "_Main2ndDissolveColor"
+      0 ColorRGBA second
+       0 float r = 1
+       0 float g = 1
+       0 float b = 1
+       0 float a = 1
+    [34]
+     0 pair data
+      1 string first = "_Main2ndDissolveNoiseMask_ScrollRotate"
+      0 ColorRGBA second
+       0 float r = 0
+       0 float g = 0
+       0 float b = 0
+       0 float a = 0
+    [35]
+     0 pair data
+      1 string first = "_Main2ndDissolveParams"
+      0 ColorRGBA second
+       0 float r = 0
+       0 float g = 0
+       0 float b = 0,5
+       0 float a = 0,1
+    [36]
+     0 pair data
+      1 string first = "_Main2ndDissolvePos"
+      0 ColorRGBA second
+       0 float r = 0
+       0 float g = 0
+       0 float b = 0
+       0 float a = 0
+    [37]
+     0 pair data
+      1 string first = "_Main2ndDistanceFade"
+      0 ColorRGBA second
+       0 float r = 0,1
+       0 float g = 0,01
+       0 float b = 0
+       0 float a = 0
+    [38]
+     0 pair data
+      1 string first = "_Main2ndTexDecalAnimation"
+      0 ColorRGBA second
+       0 float r = 1
+       0 float g = 1
+       0 float b = 1
+       0 float a = 30
+    [39]
+     0 pair data
+      1 string first = "_Main2ndTexDecalSubParam"
+      0 ColorRGBA second
+       0 float r = 1
+       0 float g = 1
+       0 float b = 0
+       0 float a = 1
+    [40]
+     0 pair data
+      1 string first = "_Main2ndTex_ScrollRotate"
+      0 ColorRGBA second
+       0 float r = 0
+       0 float g = 0
+       0 float b = 0
+       0 float a = 0
+    [41]
+     0 pair data
+      1 string first = "_Main3rdDissolveColor"
+      0 ColorRGBA second
+       0 float r = 1
+       0 float g = 1
+       0 float b = 1
+       0 float a = 1
+    [42]
+     0 pair data
+      1 string first = "_Main3rdDissolveNoiseMask_ScrollRotate"
+      0 ColorRGBA second
+       0 float r = 0
+       0 float g = 0
+       0 float b = 0
+       0 float a = 0
+    [43]
+     0 pair data
+      1 string first = "_Main3rdDissolveParams"
+      0 ColorRGBA second
+       0 float r = 0
+       0 float g = 0
+       0 float b = 0,5
+       0 float a = 0,1
+    [44]
+     0 pair data
+      1 string first = "_Main3rdDissolvePos"
+      0 ColorRGBA second
+       0 float r = 0
+       0 float g = 0
+       0 float b = 0
+       0 float a = 0
+    [45]
+     0 pair data
+      1 string first = "_Main3rdDistanceFade"
+      0 ColorRGBA second
+       0 float r = 0,1
+       0 float g = 0,01
+       0 float b = 0
+       0 float a = 0
+    [46]
+     0 pair data
+      1 string first = "_Main3rdTexDecalAnimation"
+      0 ColorRGBA second
+       0 float r = 1
+       0 float g = 1
+       0 float b = 1
+       0 float a = 30
+    [47]
+     0 pair data
+      1 string first = "_Main3rdTexDecalSubParam"
+      0 ColorRGBA second
+       0 float r = 1
+       0 float g = 1
+       0 float b = 0
+       0 float a = 1
+    [48]
+     0 pair data
+      1 string first = "_Main3rdTex_ScrollRotate"
+      0 ColorRGBA second
+       0 float r = 0
+       0 float g = 0
+       0 float b = 0
+       0 float a = 0
+    [49]
+     0 pair data
+      1 string first = "_MainTexHSVG"
+      0 ColorRGBA second
+       0 float r = 0
+       0 float g = 1
+       0 float b = 0,96
+       0 float a = 1
+    [50]
+     0 pair data
+      1 string first = "_MainTex_ScrollRotate"
+      0 ColorRGBA second
+       0 float r = 0
+       0 float g = 0
+       0 float b = 0
+       0 float a = 0
+    [51]
+     0 pair data
+      1 string first = "_MatCap2ndBlendUV1"
+      0 ColorRGBA second
+       0 float r = 0
+       0 float g = 0
+       0 float b = 0
+       0 float a = 0
+    [52]
+     0 pair data
+      1 string first = "_MatCap2ndColor"
+      0 ColorRGBA second
+       0 float r = 1
+       0 float g = 1
+       0 float b = 1
+       0 float a = 1
+    [53]
+     0 pair data
+      1 string first = "_MatCapBlendUV1"
+      0 ColorRGBA second
+       0 float r = 0
+       0 float g = 0
+       0 float b = 0
+       0 float a = 0
+    [54]
+     0 pair data
+      1 string first = "_MatCapColor"
+      0 ColorRGBA second
+       0 float r = 1
+       0 float g = 1
+       0 float b = 1
+       0 float a = 1
+    [55]
+     0 pair data
+      1 string first = "_OutlineColor"
+      0 ColorRGBA second
+       0 float r = 0
+       0 float g = 0
+       0 float b = 0
+       0 float a = 1
+    [56]
+     0 pair data
+      1 string first = "_OutlineLitColor"
+      0 ColorRGBA second
+       0 float r = 1
+       0 float g = 0,2
+       0 float b = 0
+       0 float a = 0
+    [57]
+     0 pair data
+      1 string first = "_OutlineTexHSVG"
+      0 ColorRGBA second
+       0 float r = 0
+       0 float g = 1
+       0 float b = 1
+       0 float a = 1
+    [58]
+     0 pair data
+      1 string first = "_OutlineTex_ScrollRotate"
+      0 ColorRGBA second
+       0 float r = 0
+       0 float g = 0
+       0 float b = 0
+       0 float a = 0
+    [59]
+     0 pair data
+      1 string first = "_ReflectionColor"
+      0 ColorRGBA second
+       0 float r = 1
+       0 float g = 1
+       0 float b = 1
+       0 float a = 1
+    [60]
+     0 pair data
+      1 string first = "_ReflectionCubeColor"
+      0 ColorRGBA second
+       0 float r = 0
+       0 float g = 0
+       0 float b = 0
+       0 float a = 1
+    [61]
+     0 pair data
+      1 string first = "_RimColor"
+      0 ColorRGBA second
+       0 float r = 0,83879924
+       0 float g = 0,3515327
+       0 float b = 0,13286836
+       0 float a = 1
+    [62]
+     0 pair data
+      1 string first = "_RimIndirColor"
+      0 ColorRGBA second
+       0 float r = 1
+       0 float g = 1
+       0 float b = 1
+       0 float a = 1
+    [63]
+     0 pair data
+      1 string first = "_Rim_Color"
+      0 ColorRGBA second
+       0 float r = 0
+       0 float g = 0
+       0 float b = 0
+       0 float a = 1
+    [64]
+     0 pair data
+      1 string first = "_Rim_NoiseColor_Tiling"
+      0 ColorRGBA second
+       0 float r = 3
+       0 float g = 3
+       0 float b = 0
+       0 float a = 0
+    [65]
+     0 pair data
+      1 string first = "_Shadow2ndColor"
+      0 ColorRGBA second
+       0 float r = 0,61274904
+       0 float g = 0,58739763
+       0 float b = 0,754717
+       0 float a = 1
+    [66]
+     0 pair data
+      1 string first = "_Shadow3rdColor"
+      0 ColorRGBA second
+       0 float r = 0
+       0 float g = 0
+       0 float b = 0
+       0 float a = 0
+    [67]
+     0 pair data
+      1 string first = "_ShadowAOShift"
+      0 ColorRGBA second
+       0 float r = 1
+       0 float g = 0
+       0 float b = 1
+       0 float a = 0
+    [68]
+     0 pair data
+      1 string first = "_ShadowAOShift2"
+      0 ColorRGBA second
+       0 float r = 1
+       0 float g = 0
+       0 float b = 1
+       0 float a = 0
+    [69]
+     0 pair data
+      1 string first = "_ShadowBorderColor"
+      0 ColorRGBA second
+       0 float r = 1
+       0 float g = 0,1
+       0 float b = 0
+       0 float a = 1
+    [70]
+     0 pair data
+      1 string first = "_ShadowColor"
+      0 ColorRGBA second
+       0 float r = 0,7961989
+       0 float g = 0,7607843
+       0 float b = 0,8509804
+       0 float a = 1
+    [71]
+     0 pair data
+      1 string first = "_Slow_AtlasSize"
+      0 ColorRGBA second
+       0 float r = 16
+       0 float g = 16
+       0 float b = 0
+       0 float a = 0
+    [72]
+     0 pair data
+      1 string first = "_Slow_Color"
+      0 ColorRGBA second
+       0 float r = 1,498039
+       0 float g = 0,9411765
+       0 float b = 0
+       0 float a = 0
+    [73]
+     0 pair data
+      1 string first = "_SquareColor"
+      0 ColorRGBA second
+       0 float r = 0,8
+       0 float g = 0,8
+       0 float b = 0,8
+       0 float a = 0
+    [74]
+     0 pair data
+      1 string first = "_SquareTiling"
+      0 ColorRGBA second
+       0 float r = 3
+       0 float g = 3
+       0 float b = 0
+       0 float a = 0
+    [75]
+     0 pair data
+      1 string first = "_e2ga0"
+      0 ColorRGBA second
+       0 float r = 1
+       0 float g = 0
+       0 float b = 0
+       0 float a = 0
+    [76]
+     0 pair data
+      1 string first = "_e2ga1"
+      0 ColorRGBA second
+       0 float r = 1
+       0 float g = 0
+       0 float b = 0
+       0 float a = 1
+    [77]
+     0 pair data
+      1 string first = "_e2ga2"
+      0 ColorRGBA second
+       0 float r = 1
+       0 float g = 0
+       0 float b = 0
+       0 float a = 0
+    [78]
+     0 pair data
+      1 string first = "_e2ga3"
+      0 ColorRGBA second
+       0 float r = 1
+       0 float g = 0
+       0 float b = 0
+       0 float a = 0
+    [79]
+     0 pair data
+      1 string first = "_e2ga4"
+      0 ColorRGBA second
+       0 float r = 1
+       0 float g = 0
+       0 float b = 0
+       0 float a = 0
+    [80]
+     0 pair data
+      1 string first = "_e2ga5"
+      0 ColorRGBA second
+       0 float r = 1
+       0 float g = 0
+       0 float b = 0
+       0 float a = 0
+    [81]
+     0 pair data
+      1 string first = "_e2ga6"
+      0 ColorRGBA second
+       0 float r = 1
+       0 float g = 0
+       0 float b = 0
+       0 float a = 0
+    [82]
+     0 pair data
+      1 string first = "_e2ga7"
+      0 ColorRGBA second
+       0 float r = 1
+       0 float g = 0
+       0 float b = 0
+       0 float a = 0
+    [83]
+     0 pair data
+      1 string first = "_e2gc0"
+      0 ColorRGBA second
+       0 float r = 1
+       0 float g = 1
+       0 float b = 1
+       0 float a = 0
+    [84]
+     0 pair data
+      1 string first = "_e2gc1"
+      0 ColorRGBA second
+       0 float r = 1
+       0 float g = 1
+       0 float b = 1
+       0 float a = 1
+    [85]
+     0 pair data
+      1 string first = "_e2gc2"
+      0 ColorRGBA second
+       0 float r = 1
+       0 float g = 1
+       0 float b = 1
+       0 float a = 0
+    [86]
+     0 pair data
+      1 string first = "_e2gc3"
+      0 ColorRGBA second
+       0 float r = 1
+       0 float g = 1
+       0 float b = 1
+       0 float a = 0
+    [87]
+     0 pair data
+      1 string first = "_e2gc4"
+      0 ColorRGBA second
+       0 float r = 1
+       0 float g = 1
+       0 float b = 1
+       0 float a = 0
+    [88]
+     0 pair data
+      1 string first = "_e2gc5"
+      0 ColorRGBA second
+       0 float r = 1
+       0 float g = 1
+       0 float b = 1
+       0 float a = 0
+    [89]
+     0 pair data
+      1 string first = "_e2gc6"
+      0 ColorRGBA second
+       0 float r = 1
+       0 float g = 1
+       0 float b = 1
+       0 float a = 0
+    [90]
+     0 pair data
+      1 string first = "_e2gc7"
+      0 ColorRGBA second
+       0 float r = 1
+       0 float g = 1
+       0 float b = 1
+       0 float a = 0
+    [91]
+     0 pair data
+      1 string first = "_ega0"
+      0 ColorRGBA second
+       0 float r = 1
+       0 float g = 0
+       0 float b = 0
+       0 float a = 0
+    [92]
+     0 pair data
+      1 string first = "_ega1"
+      0 ColorRGBA second
+       0 float r = 1
+       0 float g = 0
+       0 float b = 0
+       0 float a = 1
+    [93]
+     0 pair data
+      1 string first = "_ega2"
+      0 ColorRGBA second
+       0 float r = 1
+       0 float g = 0
+       0 float b = 0
+       0 float a = 0
+    [94]
+     0 pair data
+      1 string first = "_ega3"
+      0 ColorRGBA second
+       0 float r = 1
+       0 float g = 0
+       0 float b = 0
+       0 float a = 0
+    [95]
+     0 pair data
+      1 string first = "_ega4"
+      0 ColorRGBA second
+       0 float r = 1
+       0 float g = 0
+       0 float b = 0
+       0 float a = 0
+    [96]
+     0 pair data
+      1 string first = "_ega5"
+      0 ColorRGBA second
+       0 float r = 1
+       0 float g = 0
+       0 float b = 0
+       0 float a = 0
+    [97]
+     0 pair data
+      1 string first = "_ega6"
+      0 ColorRGBA second
+       0 float r = 1
+       0 float g = 0
+       0 float b = 0
+       0 float a = 0
+    [98]
+     0 pair data
+      1 string first = "_ega7"
+      0 ColorRGBA second
+       0 float r = 1
+       0 float g = 0
+       0 float b = 0
+       0 float a = 0
+    [99]
+     0 pair data
+      1 string first = "_egc0"
+      0 ColorRGBA second
+       0 float r = 1
+       0 float g = 1
+       0 float b = 1
+       0 float a = 0
+    [100]
+     0 pair data
+      1 string first = "_egc1"
+      0 ColorRGBA second
+       0 float r = 1
+       0 float g = 1
+       0 float b = 1
+       0 float a = 1
+    [101]
+     0 pair data
+      1 string first = "_egc2"
+      0 ColorRGBA second
+       0 float r = 1
+       0 float g = 1
+       0 float b = 1
+       0 float a = 0
+    [102]
+     0 pair data
+      1 string first = "_egc3"
+      0 ColorRGBA second
+       0 float r = 1
+       0 float g = 1
+       0 float b = 1
+       0 float a = 0
+    [103]
+     0 pair data
+      1 string first = "_egc4"
+      0 ColorRGBA second
+       0 float r = 1
+       0 float g = 1
+       0 float b = 1
+       0 float a = 0
+    [104]
+     0 pair data
+      1 string first = "_egc5"
+      0 ColorRGBA second
+       0 float r = 1
+       0 float g = 1
+       0 float b = 1
+       0 float a = 0
+    [105]
+     0 pair data
+      1 string first = "_egc6"
+      0 ColorRGBA second
+       0 float r = 1
+       0 float g = 1
+       0 float b = 1
+       0 float a = 0
+    [106]
+     0 pair data
+      1 string first = "_egc7"
+      0 ColorRGBA second
+       0 float r = 1
+       0 float g = 1
+       0 float b = 1
+       0 float a = 0
+ 0 vector m_BuildTextureStacks
+  1 Array Array (0 items)
+   0 int size = 0
