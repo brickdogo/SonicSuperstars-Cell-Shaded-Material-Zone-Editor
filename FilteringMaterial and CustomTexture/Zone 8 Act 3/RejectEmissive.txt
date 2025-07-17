@@ -1,0 +1,6 @@
+obj_
+_MovePlatform01a
+enm0
+MI_z08_GoldShutter01a
+MI_Z08_BossBG03a
+MI_Z08_BossBG02a
