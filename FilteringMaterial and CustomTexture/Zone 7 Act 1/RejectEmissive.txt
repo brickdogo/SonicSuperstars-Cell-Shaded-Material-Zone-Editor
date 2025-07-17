@@ -1,0 +1,4 @@
+obj_
+_MovePlatform01a
+enm0
+_Bouncing_

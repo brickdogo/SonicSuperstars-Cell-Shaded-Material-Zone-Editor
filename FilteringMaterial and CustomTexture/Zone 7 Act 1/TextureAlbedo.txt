@@ -1,0 +1,5 @@
+"_EmissiveMap"
+"Texture"
+_AlbedoMap
+_Albedo
+_BaseMap
