@@ -1,0 +1,5 @@
+obj_
+_MovePlatform01a
+enm0
+MI_Z03_WindBlock01a
+MI_z08_GoldShutter01a

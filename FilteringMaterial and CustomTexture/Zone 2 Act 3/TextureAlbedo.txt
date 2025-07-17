@@ -1,0 +1,6 @@
+"_EmissiveMap"
+"Texture"
+_AlbedoMap
+_Albedo
+_BaseMap
+Texture2D_C4212ECB
