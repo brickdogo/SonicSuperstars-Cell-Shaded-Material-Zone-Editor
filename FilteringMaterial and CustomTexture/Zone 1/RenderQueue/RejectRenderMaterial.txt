@@ -1,0 +1,17 @@
+_SURFACE_TYPE_TRANSPARENT
+_PATTERN_SKY
+_SUNDISK_SIMPLE
+TestMaterial
+aig0
+Amy
+amy
+fan_
+knu
+son_
+bri
+abr
+dbr
+sonmugen
+sonototo
+son01a
+tai
