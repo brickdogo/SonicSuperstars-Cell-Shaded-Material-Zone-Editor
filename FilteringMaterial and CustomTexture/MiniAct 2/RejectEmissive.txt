@@ -1,0 +1,3 @@
+obj_
+_MovePlatform01a
+enm0
