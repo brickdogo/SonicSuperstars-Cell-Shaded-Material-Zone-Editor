@@ -1,0 +1,7 @@
+MI_z08_GoldUpDownBlock01a
+MI_Z08_StretchBlock01a
+MI_z08_obj_tile01a
+MI_z08_obj_gold01a
+MI_z08_GoldenBalance01a
+obj_ring01a_Opaque_Mt
+MI_z08_obj_GoldenLoop01a
